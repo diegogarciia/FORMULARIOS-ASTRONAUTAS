@@ -1,5 +1,6 @@
 const formulario = document.getElementById("formulario");
 
+
 const mensajes = {
     texto: "Acceso denegado",
     email: "Correo inválido",

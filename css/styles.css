@@ -37,7 +37,6 @@ form, div {
 label, p {
     font-weight: bold;
     margin-bottom: 6px;
-    display: block;
 }
 
 input[type="range"] {
@@ -53,4 +52,34 @@ input[type="submit"] {
     cursor: pointer;
     display: block;
     width: 100%;
+}
+
+#texto,
+#email,
+#contrasena,
+#numero,
+#planeta,
+#fecha,
+#rango,
+#archivo,
+#comentarios {
+  display: block;
+}
+
+.especialidades label {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  margin-bottom: 8px;             
+  width: 200px;                   
+}
+
+input.valido, select.valido, textarea.valido {
+    border: 2px solid green;
+    background-color: green;
+}
+
+input.invalido, select.invalido, textarea.invalido {
+    border: 2px solid red;
+    background-color: red;
 }

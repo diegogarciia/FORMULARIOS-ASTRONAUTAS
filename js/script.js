@@ -79,7 +79,8 @@ formulario.addEventListener("submit", function(event) {
     }
 
     const fecha = document.getElementById("fecha");
-    if (fecha.value === "") {
+    let fechaActual = document.getElementById('fecha').min = new Date().toISOString().split('T')[0];
+    if (fecha.value < fechaActual) {
         validarCampo(fecha, false);
         alert(mensajes.fecha);
         todoCorrecto = false;

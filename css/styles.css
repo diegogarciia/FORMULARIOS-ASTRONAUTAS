@@ -74,12 +74,12 @@ input[type="submit"] {
   width: 200px;                   
 }
 
-input.valido, select.valido, textarea.valido {
+input.valido, select.valido, textarea.valido, label.valido {
     border: 2px solid green;
     background-color: green;
 }
 
-input.invalido, select.invalido, textarea.invalido {
+input.invalido, select.invalido, textarea.invalido, label.invalido {
     border: 2px solid red;
     background-color: red;
 }
